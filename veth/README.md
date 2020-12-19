@@ -55,6 +55,11 @@ get ovs interface by
    ovs-vsctl list-ports br-int
    ```
 
+export the utils function
+   ```
+   source debug/veth/utils.sh 
+   ```
+
 probe the type of interface
 
    ```
@@ -65,7 +70,6 @@ probe the type of interface
 get veth interface peer info
 
    ```
-   source debug/veth/utiles.sh 
 
    DEV=cali8f43c28540a
 
