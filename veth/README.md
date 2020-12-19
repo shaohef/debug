@@ -44,8 +44,8 @@ move older version nsenter
 get calico interface by
 
    ```
-   ip a | grep calic
-   ip r | grep calic
+   ip a | grep cali
+   ip r | grep cali
    ```
 
 get ovs interface by
