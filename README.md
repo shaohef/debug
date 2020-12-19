@@ -8,5 +8,5 @@ git clone https://github.com/shaohef/debug.git
 
 ### veth
 Please refer to:
-- [veth utils usage](./veth/utils.sh)
+- [veth utils usage](./veth/README.md)
 - [ovn4vnf utils usage](./ovn4vnf/README.md)
