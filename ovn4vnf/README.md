@@ -20,6 +20,12 @@ This is veth debug utility. It will use ovs-tcpdump as sinffer for ovs interface
    kubectl -n $NM exec -it ${NFNA} -- bash -c "http_proxy=$H_PROXY yum install -y tcpdump"
 
    ```
+For centos 7, install ovs client on host, not need for ovn4nfv
+
+   ```
+   yum install -y epel-release centos-release-openstack-train
+   yum install openvswitch libibverbs
+   ```
 
 ## usage
    ```
